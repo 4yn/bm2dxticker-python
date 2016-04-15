@@ -1,0 +1,81 @@
+@font-face {
+    font-family: segled;
+    src: url(segLED.ttf);
+}
+
+body{
+	background-color: black;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#setup{
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 6vh;
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+	color: white;
+    font-family: segled;
+	font-size: 4vh;
+}
+
+#ip-address{
+	background: black;
+	border-style: none;
+	color: white;
+	text-align: right;
+	font-family: segled;
+	font-size: 4vh;
+}
+
+#port{
+	background: black;
+	border-style: none;
+	color: white;
+	text-align: left;
+	font-family: segled;
+	font-size: 4vh;
+}
+
+#connect{
+	background: black;
+	border-style: none;
+	color: white;
+	font-family: segled;
+	font-size: 4vh;
+}
+
+#ticker{
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 32vh;
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+	color: red;
+    font-family: segled;
+	font-size: 30vh;
+	text-shadow: 0 0 3vh red;
+}
+
+#ticker-ghost{
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 32vh;
+    text-align: center;
+    vertical-align: middle;
+    border-style: none;
+	color: #100;
+    font-family: segled;
+	font-size: 30vh;
+	text-shadow: 0 0 3vh #100;
+	z-index: -1;
+}
