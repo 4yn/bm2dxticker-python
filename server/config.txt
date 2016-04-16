@@ -1,0 +1,12 @@
+{
+	"gameList": [
+		{
+			"gameIndex" : 22 ,
+			"gameTitle": "PENDUAL" , 
+			"windowTitle": "beatmania IIDX 22 PENDUAL" ,
+			"memoryOffset": 21212720 ,
+			"_memoryOffset" : "0x143ae30"
+		}],
+	"currentGame": 22,
+	"serverPort": 9001
+}
