@@ -5,6 +5,11 @@ import socket
 import win32gui,win32process
 from websocket_server import WebsocketServer
 
+print "\n----------------IIDX TICKER----------------\n"
+print "made by Jimboker http://github.com/4yn/"
+print "viewer available at http://4yn.github.io/4yn/pyticker-client/viewer.html"
+print "original idea and memory address data by smpn2\n\n"
+
 # alias to functions
 OpenProcess = windll.kernel32.OpenProcess
 ReadProcessMemory = windll.kernel32.ReadProcessMemory
@@ -20,12 +25,22 @@ phandle = 0
 ticker = c_char_p("*********")
 ticker_s = len(ticker.value)
 bytesRead = c_ulong(0)
+game = 0
 
 # handle game data
 config = json.load(open('config.txt'))
 for g in config["gameList"]:
-	if config["currentGame"] == g["gameIndex"]:
-		game = g
+	if type(config["currentGame"])==int:
+		if config["currentGame"] == g["gameIndex"]:
+			game = g
+	else:
+		if config["currentGame"] == g["gameKey"]:
+			game = g
+
+if(game==0):
+	print "\nPlease specify correct game in config.txt\ne.g.\n\n\t\"currentGame\": 22 ,\n\nfor PENDUAL \n\n" 
+else:
+	print "Running ticker for " + game["gameTitle"]
 
 # create handle, define address
 def initTicker():
@@ -37,7 +52,7 @@ def initTicker():
 	modlist = EnumProcessModules(phandle)
 	for mod in modlist:
 		mname = GetModuleName(phandle,mod)
-		if mname.endswith("bm2dx.dll"):
+		if mname.endswith(game["moduleName"]):
 			memory_address = mod + game["memoryOffset"]
 
 # read address

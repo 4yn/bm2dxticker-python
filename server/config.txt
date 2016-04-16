@@ -1,12 +1,123 @@
 {
-	"gameList": [
-		{
-			"gameIndex" : 22 ,
-			"gameTitle": "PENDUAL" , 
-			"windowTitle": "beatmania IIDX 22 PENDUAL" ,
-			"memoryOffset": 21212720 ,
-			"_memoryOffset" : "0x143ae30"
-		}],
 	"currentGame": 22,
-	"serverPort": 9001
+	"serverPort": 9001,
+	"gameList": [
+			{
+				"gameIndex" : 22 ,
+				"gameTitle": "PENDUAL" , 
+				"gameKey": "iidx22" ,
+				"windowTitle": "beatmania IIDX 22 PENDUAL" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 21212720 ,
+				"_memoryOffset" : "0x143ae30"
+			},
+			{
+				"gameIndex" : 21 ,
+				"gameTitle": "SPADA" , 
+				"gameKey": "iidx21" ,
+				"windowTitle": "beatmania IIDX 21 SPADA" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 21082416 ,
+				"_memoryOffset" : "0x141B130"
+			},
+			{
+				"gameIndex" : 19 ,
+				"gameTitle": "LINCLE" , 
+				"gameKey": "iidx19" ,
+				"windowTitle": "beatmania IIDX 19 LINCLE" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 5488056 ,
+				"_memoryOffset" : "0x53BDB8"
+			},
+			{
+				"gameIndex" : 18 ,
+				"gameTitle": "RESORT ANTHEM" , 
+				"gameKey": "iidx18" ,
+				"windowTitle": "beatmania IIDX 18 Resort Anthem" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 4595088 ,
+				"_memoryOffset" : "0x461D90"
+			},
+			{
+				"gameIndex" : 17 ,
+				"gameTitle": "SIRIUS" , 
+				"gameKey": "iidx17" ,
+				"windowTitle": "beatmaniaIIDX17 SIRIUS" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 37330952 ,
+				"_memoryOffset" : "0x239A008"
+			},
+			{
+				"gameIndex" : 16 ,
+				"gameTitle": "EMPRESS" , 
+				"gameKey": "iidx16bfalt" ,
+				"windowTitle": "beatmaniaIIDX16 EMPRESS" ,
+				"moduleName": "bm2dx_beatfree_alt.exe" ,
+				"memoryOffset": 43516225 ,
+				"_memoryOffset" : "0x2980141"
+			},
+			{
+				"gameIndex" : 15 ,
+				"gameTitle": "DJ TROPPERS" , 
+				"gameKey": "iidx15htnl" ,
+				"windowTitle": "beatmaniaIIDX15 DJ TROOPERS" ,
+				"moduleName": "bm2dx_hard_tnl.exe" ,
+				"memoryOffset": 43984700 ,
+				"_memoryOffset" : "0x29F273C"
+			},
+			{
+				"gameIndex" : 14 ,
+				"gameTitle": "GOLD" , 
+				"gameKey": "iidx14ahn" ,
+				"windowTitle": "beatmaniaIIDX14" ,
+				"moduleName": "bm2dx_ahn.exe" ,
+				"memoryOffset": 43264612 ,
+				"_memoryOffset" : "0x2942A64"
+			},
+			{
+				"gameIndex" : 13 ,
+				"gameTitle": "HAPPY SKY" , 
+				"gameKey": "iidx13ahn" ,
+				"windowTitle": "beatmaniaIIDX13" ,
+				"moduleName": "bm2dx_ahn.exe" ,
+				"memoryOffset": 29031484 ,
+				"_memoryOffset" : "0x1BAFC3C"
+			},
+			{
+				"gameIndex" : 12 ,
+				"gameTitle": "DISTORTED" ,
+				"gameKey": "iidx12kp" , 
+				"windowTitle": "beatmaniaIIDX12" ,
+				"moduleName": "bm2dx_kp.exe" ,
+				"memoryOffset": 29031484 ,
+				"_memoryOffset" : "x1524020"
+			},
+			{
+				"gameIndex" : 12 ,
+				"gameTitle": "DISTORTED" , 
+				"gameKey": "iidx12" ,
+				"windowTitle": "beatmaniaIIDX12" ,
+				"moduleName": "bm2dx.exe" ,
+				"memoryOffset": 22171688 ,
+				"_memoryOffset" : "0x1525028"
+			},
+			{
+				"gameIndex" : 11 ,
+				"gameTitle": "RED" , 
+				"gameKey": "iidx11" ,
+				"windowTitle": "C02" ,
+				"moduleName": "bm2dx.exe" ,
+				"memoryOffset": 22525736 ,
+				"_memoryOffset" : "0x157B728"
+			},
+			{
+				"gameIndex" : 10 ,
+				"gameTitle": "10TH STYLE" ,
+				"gameKey": "iidx10fix" , 
+				"windowTitle": "C02" ,
+				"moduleName": "bm2dx10_fix.exe" ,
+				"memoryOffset": 26494796 ,
+				"_memoryOffset" : "0x194474C"
+			}
+		]
 }
