@@ -21,7 +21,7 @@ body{
     vertical-align: middle;
     border-style: none;
 	color: white;
-    font-family: segled;
+    font-family: segled, monospace;
 	font-size: 4vh;
 }
 
@@ -30,7 +30,7 @@ body{
 	border-style: none;
 	color: white;
 	text-align: right;
-	font-family: segled;
+	font-family: segled, monospace;
 	font-size: 4vh;
 }
 
@@ -39,7 +39,7 @@ body{
 	border-style: none;
 	color: white;
 	text-align: left;
-	font-family: segled;
+	font-family: segled, monospace;
 	font-size: 4vh;
 }
 
@@ -47,7 +47,7 @@ body{
 	background: black;
 	border-style: none;
 	color: white;
-	font-family: segled;
+	font-family: segled, monospace;
 	font-size: 4vh;
 }
 
@@ -60,7 +60,7 @@ body{
     vertical-align: middle;
     border-style: none;
 	color: red;
-    font-family: segled;
+    font-family: segled, monospace;
 	font-size: 30vh;
 	text-shadow: 0 0 3vh red;
 }
@@ -74,7 +74,7 @@ body{
     vertical-align: middle;
     border-style: none;
 	color: #100;
-    font-family: segled;
+    font-family: segled, monospace;
 	font-size: 30vh;
 	text-shadow: 0 0 3vh #100;
 	z-index: -1;
