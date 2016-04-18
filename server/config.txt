@@ -21,6 +21,15 @@
 				"_memoryOffset" : "0x141B130"
 			},
 			{
+				"gameIndex" : 20 ,
+				"gameTitle": "TRICORO" , 
+				"gameKey": "iidx20" ,
+				"windowTitle": "beatmania IIDX 20 TRICORO" ,
+				"moduleName": "bm2dx.dll" ,
+				"memoryOffset": 13093584 ,
+				"_memoryOffset" : "0xC7CAD0"
+			},
+			{
 				"gameIndex" : 19 ,
 				"gameTitle": "LINCLE" , 
 				"gameKey": "iidx19" ,
